@@ -1,9 +1,123 @@
 body{
+  color: #40514E;
   margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
 }
 h1{
-  margin-top:0;
+  color: #66BFBF;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  margin:50px auto 0; 
 }
-div{
-  background-color: #eaf9f5;
+h2{
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+h3{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+a{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover{
+  color: #EAF6F6;
+}
+p{
+  line-height: 2;
+}
+hr{
+  border: 10px #EAF6F6 dotted;
+  border-bottom: none;
+  margin: 100px auto;
+  width: 4%;
+}
+
+/*######### HEADER #########*/
+.top-container{
+  background-color: #EAF6F6;
+  position:relative;
+  padding-top: 100px;
+}
+.top-cloud{
+  position: absolute;
+  top: 40px;
+  right: 300px;
+}
+.bottom-cloud{
+  position: absolute;
+  bottom: 300px;
+  left: 250px;
+}
+#web{
+  text-decoration: underline;
+}
+
+/*######### MAIN #########*/
+.middle-container{
+  padding: 100px 0;
+}
+#profile-img{
+  width: 200px;
+  border-radius: 50%;
+}
+.intro{
+  margin: auto;;
+  width: 30%;
+}
+.skill-row{
+  width:50%;
+  margin: 100px auto;
+  text-align: left;
+}
+.comp-img{
+  width: 15%;
+  float: left;
+  margin-right: 30px;
+}
+.web-img{
+  width: 15%;
+  float: right;
+  margin-left: 30px;
+}
+
+
+/*######### CONTACT #########*/
+.contact-message{
+  margin: 40px auto 60px;
+  width: 40%;
+}
+
+.btn{
+  background: #11cdd4;
+  background-image: linear-gradient(#11cdd4, #11999e);
+  border-radius: 8px;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+.btn:hover{
+  background: #30e3cb;
+  background-image: linear-gradient(#30e3cb, #2bc4ad);
+}
+
+
+/*######### FOOTER #########*/
+.bottom-container{
+  background-color: #66BFBF;
+  padding: 50px 0 2px;
+}
+.copyright{
+  color: #eaf6f6;
+  font-size: 0.75rem;
+  padding: 20px 0;
 }
